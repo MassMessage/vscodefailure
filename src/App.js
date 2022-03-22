@@ -1,6 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+// just this give the error:
+// Module not found: Can't resolve 'vscode' 
+import { DoTheMagic } from './TextEditor/client';
+
+const Foo = () =>
+{
+  return <div></div>
+}
+
 function App() {
   return (
     <div className="App">
